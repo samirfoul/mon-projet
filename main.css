@@ -6,6 +6,15 @@
 p{
     font-family: arial;
 }
+html {
+    scroll-behavior: smooth;
+}
+body {
+    color: rgb(14, 14, 14);
+    background-color: white;
+    font: 1em "Open Sans", sans-serif;
+
+}
 
 
 
@@ -43,14 +52,155 @@ button{
     margin-right: 20px;
 }
 
+/* fin de header*/
 /* body */ 
-#hébergement{
-    width: 300px;
-    height: 250px;
-    background-color: grey;
-    border-radius: 3px;
 
+.flex {
+    display: flex;
 }
+.wrap {
+    flex-wrap: wrap;
+}
+.heberg1 {
+    width: 300px;
+    height: 230px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 4%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.heberg2 {
+    width: 380px;
+    height: 140px;
+    background-color: white;
+    margin: 15px;
+    border-radius: 9px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+.picture {
+    width: 290px;
+    height: 130px;
+    border-radius: 15px 15px 0 0;
+    margin: 6px 6px 6px 6px;
+}
+.picture2{
+    width: 190px;
+    height: 130px;
+    border-radius: 15px 0 0 15px;
+    margin: 6px 6px 6px 6px;
+}
+section h2 {
+    padding: 0px 10px 0 20px;
+}
+.heber1 p  {
+    margin: 0 0 0 10px ;
+}
+
+.heber1 h3  {
+    margin: 0 0 10px 10px ;
+}
+.heber1 i {
+    color: blue;
+}
+.heberg2 em {
+    font-weight: bold;
+}
+
+.heberg2 p  {
+    margin: 0 0 0 10px ;
+}
+
+.heberg2 h3  {
+    margin: 0 0 10px 10px ;
+}
+.heberg2 i {
+    color: blue;
+}
+.etoiles {
+    margin: 0 0 0 10px ;
+}
+.column {
+    flex-direction: column;
+}
+.main1 {
+    width: 1000px;
+    height:650px;
+    background-color: rgb(221, 214, 214);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+    margin-right: 15px;
+}
+.main2{
+    width: 500px;
+    height: 630px;
+    background-color: rgb(221, 214, 214);
+    border-radius: 2%;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+.afichez{
+    margin: 40px 0 0 40px;
+}
+.pictureact1 {
+    width: 280px;
+    height: 350px;
+    border-radius: 15px 15px 0 0;
+    margin: 5px 5px 5px 5px;
+}
+.picture3 {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 400px;
+    margin: 5px 10px 5px 10px;
+}
+
+.picture4 {
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    width: 290px;
+    height: 190px;
+    margin: 10px 10px 5px 10px;
+}
+.picture3 p {
+    font-weight: bold;
+    margin: 5px 5px 5px 5px;
+}
+
+.pictureact2 {
+    width: 280px;
+    height: 140px;
+    border-radius: 15px 15px 0 0;
+    margin: 5px 5px 5px 5px;
+}
+
+
+.picture4 p {
+    font-weight: bold;
+    margin: 5px 0 0 10px;
+}
+
+/* fin de la partie body */
+
+/* footer */
+footer {
+    border-radius: 5px;
+    background-color: rgb(219, 215, 207);
+}
+
+
+footer div {
+    margin-bottom: 30px;
+    
+}
+footer a {
+    text-decoration: none;
+    color: black;
+}
+.space-around{
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
 
 
 
