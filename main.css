@@ -13,7 +13,6 @@ body {
     color: rgb(14, 14, 14);
     background-color: white;
     font: 1em "Open Sans", sans-serif;
-
 }
 
 
@@ -24,13 +23,18 @@ div nav li a {
     text-decoration: none;
     margin-right: 20px;
 }
+div nav li a:hover{
+    color: blueviolet;
+}
+.list{
+    margin-right: 350px;
+}
 .infoo{
     width: 30px;
     background-color: grey;
-    padding: 0 0 0 15px;
+    padding: 0px 0 0 15px;
     border-radius:5px 0 0 5px;
 }
-
 header nav ul li {
     display: inline-block;/* pour suprimer les point  */
     font-size: 30px;
@@ -51,6 +55,11 @@ header nav ul li {
     color: black;
     font-size: 20px;
 }
+.exclamation{
+    width: 30px;
+    background-color: whitesmoke;
+    color: blue;
+}
 .btn{
     background-color: blue;
     color: white;
@@ -58,14 +67,46 @@ header nav ul li {
     border-radius: 2px;
 }
 button{
-    border-radius: 3px;
-    border: 2px solid grey;
-    background-color: white;
-    font-size: bold;
+    border-radius: 28px;
+    border: 4px solid grey;
+    background-color: white;    
+    font-size: 30px;
+    margin: 15px;
+    padding:0;
+    
+}
+
+button div{
+    color: blue;
+    width: 50px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+.parag{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parag i {
+    color: whitesmoke;
+    background-color: blue;
+    border-radius: 50%;
+    border: 1px solid grey;
+    font-size: 30px;
+}
+.parag i:hover{
+    color: blueviolet;
+}
+ul i{
+    width: 40px;
+}
+.fil{
+    margin-top: 40px;
+    font-size: 30px;
 }
 header{
-    background-color: rgb(246, 242, 236);
+    /*background-color: rgb(246, 242, 236);*/
     width: 100%;
+    padding-left: 16px;
 }
 /*head{
     width: 1000px;
@@ -73,10 +114,10 @@ header{
     background-color: rgb(219, 215, 207);
 }*/
 .logo{
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
-    border-radius: 2px;
-    height: 150px;
-    background-color: aqua;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    height: 100px;
+    background-color: rgb(164, 234, 234);
     
 }
 
@@ -91,11 +132,16 @@ header{
 .wrap {
     flex-wrap: wrap;
 }
+img:hover{
+    transform: scale(1.7);
+    transition: 1s;
+}
 .heberg1 {
     width: 300px;
     height: 230px;
     background-color: white;
     margin: 15px;
+    padding-left: 3px;
     border-radius: 4%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
@@ -121,6 +167,9 @@ header{
 }
 section h2 {
     padding: 0px 10px 0 20px;
+}
+.main2 h2{
+    justify-content: space-between;
 }
 .heber1 p  {
     margin: 0 0 0 10px ;
@@ -148,6 +197,7 @@ section h2 {
 }
 .etoiles {
     margin: 0 0 0 10px ;
+    color: blue;
 }
 .column {
     flex-direction: column;
@@ -161,8 +211,8 @@ section h2 {
     margin-right: 15px;
 }
 .main2{
-    width: 750px;
-    height: 630px;
+    width: 100%;
+    height: 640px;
     background-color: rgb(221, 214, 214);
     border-radius: 2%;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
@@ -221,11 +271,14 @@ footer {
 
 footer div {
     margin-bottom: 30px;
-    
+    padding-left: 10px;
 }
 footer a {
     text-decoration: none;
     color: black;
+}
+footer a:hover{
+    color: blueviolet;
 }
 .space-around{
     justify-content: space-around;
