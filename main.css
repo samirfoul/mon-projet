@@ -120,6 +120,10 @@ header{
     background-color: rgb(164, 234, 234);
     
 }
+.logo:hover{
+    transform: scale(1.7);
+    transition: 1s;
+}
 
 /* fin de header*/
 
@@ -132,7 +136,24 @@ header{
 .wrap {
     flex-wrap: wrap;
 }
-img:hover{
+/*img:hover{
+    transform: scale(1.7);
+    transition: 1s;
+}
+    */
+.heberg1:hover{
+    transform: scale(1.7);
+    transition: 1s;
+}
+.heberg2:hover{
+    transform: scale(1.7);
+    transition: 1s;
+}
+.picture4:hover{
+    transform: scale(1.7);
+    transition: 1s;
+}
+.picture3:hover{
     transform: scale(1.7);
     transition: 1s;
 }
