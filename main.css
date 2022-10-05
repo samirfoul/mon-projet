@@ -20,12 +20,25 @@ body {
 
 /* header */
 div nav li a {
-    color: black;
+    color: white;
     text-decoration: none;
     margin-right: 20px;
 }
+.infoo{
+    width: 30px;
+    background-color: grey;
+    padding: 0 0 0 15px;
+    border-radius:5px 0 0 5px;
+}
+
 header nav ul li {
     display: inline-block;/* pour suprimer les point  */
+    font-size: 30px;
+    box-shadow: 2px 2px 2Px 2px rgba(0, 0, 0, 0.2);
+    padding: 4px 4px 4px 4Px;
+    background-color: blue;
+    border-radius: 3px;
+    font-family: italic;
 }
 /*i{
     width: 30px;
@@ -49,10 +62,27 @@ button{
     border: 2px solid grey;
     background-color: white;
     font-size: bold;
-    margin-right: 20px;
+}
+header{
+    background-color: rgb(246, 242, 236);
+    width: 100%;
+}
+/*head{
+    width: 1000px;
+    height: 100px;
+    background-color: rgb(219, 215, 207);
+}*/
+.logo{
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 2px;
+    height: 150px;
+    background-color: aqua;
+    
 }
 
 /* fin de header*/
+
+
 /* body */ 
 
 .flex {
@@ -131,7 +161,7 @@ section h2 {
     margin-right: 15px;
 }
 .main2{
-    width: 500px;
+    width: 750px;
     height: 630px;
     background-color: rgb(221, 214, 214);
     border-radius: 2%;
@@ -182,6 +212,7 @@ section h2 {
 /* fin de la partie body */
 
 /* footer */
+
 footer {
     border-radius: 5px;
     background-color: rgb(219, 215, 207);
